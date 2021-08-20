@@ -11,11 +11,14 @@
 
 
 A)  1. user can create an account as an admin of a company.
-     2. Invite employees of that company to join the app using email providing his login credentials. ( to access email sending, some settings have to be done. currently it will show the email in console only. )
-     3. Assign tasks to particular employee
+
+   2. Invite employees of that company to join the app using email providing his login credentials. ( to access email sending, some settings have to be done. currently      it will show the email in console only. )
+     
+   3. Assign tasks to particular employee
 
 B)  1. Employee can login to his account.
-     2. Get his assigned tasks by admin.
+     
+   2. Get his assigned tasks by admin.
 
 
 All the projects, companies, admins and employees are bifurcated to manage effectively.
