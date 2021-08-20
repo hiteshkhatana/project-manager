@@ -12,7 +12,7 @@
 
 A)  1. user can create an account as an admin of a company.
 
-   2. Invite employees of that company to join the app using email providing his login credentials. ( to access email sending, some settings have to be done. currently      it will show the email in console only. )
+   2. Invite employees of that company to join the app using email providing his login credentials. ( for sending emails, some settings have to be done. currently      it will show the email in console only. )
      
    3. Assign tasks to particular employee
 
