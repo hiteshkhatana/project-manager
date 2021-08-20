@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% include 'head-nav.html' %}
+
+<br>
+<br>
+<div class = "container">
+    <center class = 'display-4'>PROJECT DETAIL</center>
+    <br>
+
+    <div class = "text-dark"><b>Project id - </b>{{project_obj.id}}</div>
+    <div class = "text-dark"><b>Company - </b>{{project_obj.company}}</div>
+    <div class = "text-dark"><b>Admin - </b>{{project_obj.admin}}</div>
+    <div class = "text-dark"><b>Issue date - </b>{{project_obj.assigned_date}}</div>
+    <div class = "text-dark"><b>Deadline - </b>{{project_obj.deadline}}</div>
+    
+
+    <br>
+    <hr>
+    <br>
+    
+
+    <div class = "container bg-light">
+        {{project_obj.project}}
+    </div>
+
+    
+
+</div>
+{% endblock content %}

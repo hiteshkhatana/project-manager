@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% include 'head-nav.html' %}
+
+<br>
+<br>
+<div class = "container">
+    <center class = 'display-4'>ADMIN DASHBOARD</center>
+    <br>
+
+    <div class = "text-dark"><b>Company - </b>{{company}}</div>
+    <div class = "text-dark"><b>Admin - </b>{{admin}}</div>
+
+    <br>
+    <br>
+
+    <div class = "container">
+        <center><img src = "/static/admin.png" id = "admin-image"></center>
+    </div>
+
+    <br>
+
+    <div class = "row">
+        <div class = "col-1"></div>
+        <a href = "/invite" class = "col-4 btn btn-primary">
+                INVITE
+        </a>
+        <div class = "col-1 "></div>
+        <a href = "/project" class = "col-4 btn btn-success">
+            CREATE PROJECT
+        </a>
+        
+
+    </div>
+
+</div>
+
+{% endblock content %}

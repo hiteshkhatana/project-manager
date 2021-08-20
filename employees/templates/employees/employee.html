@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% include 'head-nav.html' %}
+
+<br>
+<br>
+<div class = "container">
+    <center class = 'display-4'>EMPLOYEE DASHBOARD</center>
+    <br>
+
+    <div class = "text-dark"><b>Company - </b>{{company}}</div>
+    <div class = "text-dark"><b>Admin - </b>{{admin}}</div>
+
+    <br>
+    <br>
+
+    <div class = "container">
+        <Table class = "table">
+            <thead class = "bg-light">
+            <tr>
+                <th>Assigned Date</th>
+                <th>Project</th>
+                <th>Deadline</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for elem in projects %}
+            <tr class = "bg-danger">
+                <td>{{elem.assigned_date}}</td>
+                <td>{{elem.project}}</td>
+                <td>{{elem.deadline}}</td>
+                <td><a href = "projects/{{elem.id}}" class = "btn btn-dark">Detail</a></td>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+
+        </Table>
+    </div>
+
+    
+
+</div>
+{% endblock content %}

@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% include 'head-nav.html' %}
+
+
+<div class = "container mt-5">
+
+    <center class = 'display-4'>CREATE PROJECT</center>
+    <br>
+
+    <div>
+        <form method="POST">{% csrf_token %}
+                            
+            <div class="input-group mb-3">
+                <textarea rows="5" type="text" name="project" class="form-control input_user" value="">Type your project details here..........</textarea>
+            </div>
+
+            <center>
+
+            
+            <div class = "row">
+                <div class="col-3"></div>
+                <div class = "col-2"><h4><b>Assign to :- </b></h4></div>
+                <!-- <input list="namelist" name="employee"> -->
+                <!-- <datalist id = "namelist">
+                    {% for op in employees %}
+                        <option value =  "{{op}}">
+                    {% endfor %}
+                </datalist> -->
+
+                <select name="employee" id="employee">
+                    <option selected disabled>---------Employee--------</option>
+                    {% for op in employees %}
+                        <option value =  "{{op}}">{{op}}</option>
+                    {% endfor %}
+                  </select>
+            </div>
+
+            <div class = "row mt-2">
+                <div class="col-3"></div>
+                <div class = "col-2"><h4><b>Deadline :- </b></h4></div>
+                <input type="text" name="deadline" placeholder="Enter date" required>
+            </div>
+            
+            
+            <div class="w-25 mt-3">
+                <button type="submit" name="button" class="btn login_btn">Create project</button>
+            </div>
+            </center>
+        </form>
+</div>
+    
+</div>
+    
+
+{% endblock content %}
