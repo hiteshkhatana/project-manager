@@ -20,10 +20,10 @@ B)  1. Employee can login to his account.
 
 All the projects, companies, admins and employees are bifurcated to manage effectively.
 
-![Screenshot (18)](https://user-images.githubusercontent.com/47058253/130269969-8cefc418-c690-4934-b962-48f8c054ad0f.png)
-![Screenshot (24)](https://user-images.githubusercontent.com/47058253/130269977-70a7f4d7-ba02-4bf0-8991-6b3d1ec627e6.png)
-![Screenshot (23)](https://user-images.githubusercontent.com/47058253/130269980-9aea370f-6d8c-4e92-913f-091e38eeda2b.png)
-![Screenshot (22)](https://user-images.githubusercontent.com/47058253/130269985-9d00cc27-3508-4643-9179-e7d017c80c88.png)
-![Screenshot (20)](https://user-images.githubusercontent.com/47058253/130269987-2707e9cd-bf9c-4f89-85c6-46b51aaed5f7.png)
-![Screenshot (19)](https://user-images.githubusercontent.com/47058253/130269990-48c3dba2-2d4a-4eab-81f5-4ce244a0c66e.png)
+https://user-images.githubusercontent.com/47058253/130269969-8cefc418-c690-4934-b962-48f8c054ad0f.png
+https://user-images.githubusercontent.com/47058253/130269977-70a7f4d7-ba02-4bf0-8991-6b3d1ec627e6.png
+https://user-images.githubusercontent.com/47058253/130269980-9aea370f-6d8c-4e92-913f-091e38eeda2b.png
+https://user-images.githubusercontent.com/47058253/130269985-9d00cc27-3508-4643-9179-e7d017c80c88.png
+https://user-images.githubusercontent.com/47058253/130269987-2707e9cd-bf9c-4f89-85c6-46b51aaed5f7.png
+https://user-images.githubusercontent.com/47058253/130269990-48c3dba2-2d4a-4eab-81f5-4ce244a0c66e.png
  
